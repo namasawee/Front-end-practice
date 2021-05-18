@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เขียนบันทึก</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>เขียนบันทึกโน๊ต</h1>
+
+        <div class="text-area">
+        <textarea placeholder="เขียนโน๊ตที่นี่ . . ."></textarea>
+
+        <div class="color">
+          <label for="color">เลือกสี : </label>
+          <input type="color" id="color" name="color" value="#000">
+          <label id="sizelabel" for="size">ขนาด : </label>
+          <input type="number" value="17" id="size">
+        
+        </div>
+
+        <button id="add">เพิ่ม</button>
+        </div>
+
+        <div class="notes"></div>
+
+    </div>
+</body>
+</html>
